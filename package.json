@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ezesundayeze/node-d3/issues"
   },
-  "homepage": "https://github.com/ezesundayeze/node-d3#readme"
+  "homepage": "https://github.com/ezesundayeze/node-d3#readme",
+  "dependencies": {
+    "d3": "3",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "jsdom": "^19.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
